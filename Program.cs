@@ -6,7 +6,7 @@
         {
             Console.WriteLine("byte");
             Console.WriteLine(byte.MaxValue);
-            Console.WriteLine(byte.MinValue);   
+            Console.WriteLine(byte.MinValue);
             Console.WriteLine("=============");
 
             Console.WriteLine("sbyte");
@@ -79,13 +79,22 @@
             Console.WriteLine(" *");
             Console.WriteLine("*");
 
-            for (int i = 1; i <=5; i++)
+            for (int i = 1; i <= 5; i++)
             {
-                for (int j = 1; j <=i; j++)
+                for (int j = 1; j <= i; j++)
                 {
                     Console.Write(j);
                 }
-                
+
+                Console.WriteLine("");
+            }
+            for (int i = 4; i>=1; i--)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(j);
+                }
+
                 Console.WriteLine("");
             }
         }
