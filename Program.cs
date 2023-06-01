@@ -69,6 +69,15 @@
             Console.WriteLine(string.MaxValue);
             Console.WriteLine(string.MinValue);
             Console.WriteLine("=============");*/
+
+            Console.WriteLine("*");
+            Console.WriteLine(" *");
+            Console.WriteLine("  *");
+            Console.WriteLine("   *");
+            Console.WriteLine("   *");
+            Console.WriteLine("  *");
+            Console.WriteLine(" *");
+            Console.WriteLine("*");
         }
     }
 }
