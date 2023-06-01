@@ -97,6 +97,20 @@
 
                 Console.WriteLine("");
             }
+
+            Console.WriteLine("anuther kind of batterns");
+
+            for(int i = 1; i<=5;i++)
+            {
+                for(int j = 5; j>=1 ;j--)
+                    { 
+                if  (j<=i)
+                     Console.Write(j);
+                    else
+                     Console.WriteLine("");
+                    }
+                    
+            }
         }
     }
 }
