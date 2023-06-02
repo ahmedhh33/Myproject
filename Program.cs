@@ -99,18 +99,35 @@
             }
 
             Console.WriteLine("anuther kind of batterns");
-
-            for(int i = 1; i<=5;i++)
+            int num = 5;
+            for (int i = 1; i <= num; i++)
             {
-                for(int j = 5; j>=1 ;j--)
-                    { 
-                if  (j<=i)
-                     Console.Write(j);
-                    else
-                     Console.WriteLine("");
-                    }
-                    
+                for (int j = 1; j <= num - i; j++)
+                {
+
+                    Console.Write("");
+                }
+                for (int k = i; k >= 1; k--)
+               {
+                    Console.Write(k);
+               }
+
+                Console.WriteLine();
             }
+            
+            for(int i = 4; i >= 1; i--)
+            {
+                for (int j = 5; j >= 1; j--)
+                {
+                    if (j <= i)
+                        Console.Write(j);
+                    else
+                        Console.Write("");
+                }
+                Console.WriteLine() ;
+            }
+
+
         }
     }
 }
