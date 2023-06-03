@@ -140,6 +140,7 @@
             for (int i = 0; i < stuent.Length; i++)
             {
                 Console.Write(stuent[i]);
+                Console.Write(" ");
                 Console.WriteLine(marks[i]);
             }
         }
