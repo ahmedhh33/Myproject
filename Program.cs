@@ -143,6 +143,19 @@
                 Console.Write(" ");
                 Console.WriteLine(marks[i]);
             }
+
+
+
+
+
+            Console.WriteLine('\n');
+            Console.WriteLine("City Munth Mount of rain Array");
+
+            int[] Rain = { 5, 2, 3, 3, 1, 5, 8, 6 };
+            string[] Month = { "jul", "aug", "sep" };
+            string[] Cuty = { "sohar", "sur", "nizwa" };
+
+
         }
     }
 }
