@@ -128,6 +128,20 @@
             }
 
 
+
+
+            Console.WriteLine('\n');
+            Console.WriteLine(" Array ");
+
+            String[] stuent = { "Ahmed", "Mohammed", "Ali", "Hamed", "Salim", "Musallem" };
+            Console.WriteLine(stuent[3]);
+            Console.WriteLine('\n');
+            int[] marks = { 60, 80, 88, 79, 93, 53 };
+            for (int i = 0; i < stuent.Length; i++)
+            {
+                Console.Write(stuent[i]);
+                Console.WriteLine(marks[i]);
+            }
         }
     }
 }
