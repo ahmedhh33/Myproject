@@ -105,7 +105,7 @@
                 for (int j = 1; j <= num - i; j++)
                 {
 
-                    Console.Write("");
+                    Console.Write(" ");
                 }
                 for (int k = i; k >= 1; k--)
                {
@@ -122,7 +122,7 @@
                     if (j <= i)
                         Console.Write(j);
                     else
-                        Console.Write("");
+                        Console.Write(" ");
                 }
                 Console.WriteLine() ;
             }
