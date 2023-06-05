@@ -88,7 +88,7 @@
 
                 Console.WriteLine("");
             }
-            for (int i = 4; i>=1; i--)
+            for (int i = 4; i >= 1; i--)
             {
                 for (int j = 1; j <= i; j++)
                 {
@@ -108,14 +108,14 @@
                     Console.Write(" ");
                 }
                 for (int k = i; k >= 1; k--)
-               {
+                {
                     Console.Write(k);
-               }
+                }
 
                 Console.WriteLine();
             }
-            
-            for(int i = 4; i >= 1; i--)
+
+            for (int i = 4; i >= 1; i--)
             {
                 for (int j = 5; j >= 1; j--)
                 {
@@ -124,7 +124,7 @@
                     else
                         Console.Write(" ");
                 }
-                Console.WriteLine() ;
+                Console.WriteLine();
             }
 
 
@@ -156,6 +156,21 @@
             string[] Cuty = { "sohar", "sur", "nizwa" };
 
 
+            for (int i = 0; i <= 4; i++)
+            {
+                for (int j = 0; j <= 5; j++)
+                {
+                    Console.Write("*");
+                }
+                for (int j = 0; j <= 5; j++)
+                {
+                    Console.Write("*******        *******");
+                }
+                for (int j = 0; j <= 5; j++)
+                {
+                    Console.Write("*");
+                }
+            }
         }
     }
 }
